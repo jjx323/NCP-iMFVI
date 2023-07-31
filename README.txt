@@ -1,6 +1,6 @@
 Non-Certered Parametrization based infinite-dimensional mean-field variational inference approach
 
-This program is based on :
+This program is based on the program "https://github.com/jjx323/IPBayesML" and the following articles:
 
 [1] Tan Bui-Thanh and Omar Ghattas, Analysis of the Hessian for inverse scattering problems: I. Inverse shape
 scattering of acoustic waves, Inverse Problems 28 (2012), no. 5, 055001.

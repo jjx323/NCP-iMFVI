@@ -103,8 +103,7 @@ Readers can seek more details about PML in the following articles:
 problem with a stochastic source, Inverse Problems 26 (2010), no. 7, 074014.
 [6] Junxiong Jia, Bangyu Wu, Jigen Peng, and Jinghuai Gao, Recursive linearization method for inverse medium
 scattering problems with complex mixture Gaussian error learning, Inverse Problems 35 (2019), no. 7, 075003.
-[7] Junxiong Jia, Yanni Wu, Peijun Li, Deyu Meng, Variational inverting network for statistical inverse problems of partial differential equations, 
-Journal of Machine Learning Research, 24, 1--60, 2023.
+[7] Junxiong Jia, Yanni Wu, Peijun Li, Deyu Meng, Variational inverting network for statistical inverse problems of partial differential equations, Journal of Machine Learning Research, 24, 1--60, 2023.
 
 Step1: Generate data
 

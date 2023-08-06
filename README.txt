@@ -1,4 +1,5 @@
-Non-Certered Parametrization based infinite-dimensional mean-field variational inference approach
+Code for the paper: 
+Jiaming Sui, Junxiong Jia, Non-Certered Parametrization based infinite-dimensional mean-field variational inference approach, 2023, https://arxiv.org/abs/2211.10703
 
 This program is based on the program "https://github.com/jjx323/IPBayesML" and the following articles:
 
@@ -9,8 +10,7 @@ scattering of acoustic waves, Inverse Problems 28 (2012), no. 5, 055001.
 inverse problems governed by PDEs: Part I: Deterministic inversion and linearized Bayesian inference, ACM
 Transactions on Mathematical Software (TOMS) 47 (2021), no. 2, 1-34.
 
-[3] Jiaming Sui and Junxiong Jia, Non-centered parametric variational Bayes' approach for hierarchical inverse problems of partial differential equations''.
- 2023.
+[3] Jiaming Sui and Junxiong Jia, Non-centered parametric variational Bayes' approach for hierarchical inverse problems of partial differential equations'' 2023.
 
 [4] Junxiong Jia, Peijun Li, and Deyu Meng, Stein variational gradient descent on infinite-dimensional space and
 applications to statistical inverse problems, SIAM Journal on Numerical Analysis 60 (2022), no. 4, 2225-2252.

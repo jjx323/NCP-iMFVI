@@ -3,7 +3,7 @@
 """
 Created on Fri Apr 15 16:58:21 2022
 
-@author: Jiaming Sui and Junxiong Jia
+@author: Jiaming Sui and Junxiong Jia and Haoyu Lu
 """
 
 import numpy as np
@@ -15,9 +15,13 @@ def pre_chol_QR(Y_, M, eva_Qbar=True):
     Z, Ry = np.linalg.qr(Y_)
     Zbar = M(Z)
     Rz = np.linalg.cholesky(Z.T@Zbar)
-    tmp = np.linalg.inv(Rz)
+    ## The output of np.linalg.cholesky is different from that discribled in 
+    ## "U. Villa, N. Petra, O, Ghattas, hIPPYlib" collected in the file references
+    ## /core/References
+    ## So we need to use Rz.T in the following code
+    tmp = np.linalg.inv(Rz.T)
     Q = Z@tmp 
-    R = Rz@Ry
+    R = Rz.T@Ry
     if eva_Qbar == True:
         Qbar = Zbar@tmp 
         return Q, Qbar, R
